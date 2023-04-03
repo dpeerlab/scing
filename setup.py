@@ -25,7 +25,7 @@ setuptools.setup(
     # packages=setuptools.find_packages(),
     packages=[
         "scing",
-        "docker"
+        "scing_docker"
     ],
     package_dir={"": "src"},
     scripts=[
