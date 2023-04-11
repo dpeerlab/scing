@@ -72,7 +72,7 @@ containers:
       version: 0.2.1
       project_url: https://github.com/hisplan/sharp/tree/master/dockers/basic-qc
       download_url: https://github.com/hisplan/sharp/archive/refs/tags/v0.1.1.tar.gz
-      directory: dockers/cut-indrop-spacer
+      directory: dockers/basic-qc
     - name: cite-seq-count
       version: 1.4.2-develop
       project_url: https://github.com/hisplan/sharp/tree/master/dockers/cite-seq-count
@@ -96,13 +96,13 @@ containers:
       project_url: https://github.com/hisplan/gtf-utils
       download_url: https://github.com/hisplan/gtf-utils/archive/refs/tags/v0.0.6.tar.gz
     - name: cellranger
-      version: 6.1.2
-      project_url: https://github.com/hisplan/docker-cellranger
-      download_url: https://github.com/hisplan/docker-cellranger/archive/refs/tags/v6.1.2.tar.gz
+      version: 7.1.0
+      project_url: https://github.com/dpeerlab/docker-cellranger
+      download_url: https://github.com/dpeerlab/docker-cellranger/archive/refs/tags/v7.1.0.tar.gz
     - name: cellranger-arc
-      version: 2.0.0
-      project_url: https://github.com/hisplan/docker-cellranger-arc
-      download_url: https://github.com/hisplan/docker-cellranger-arc/archive/refs/tags/v2.0.0.tar.gz
+      version: 2.0.2
+      project_url: https://github.com/dpeerlab/docker-cellranger-arc
+      download_url: https://github.com/dpeerlab/docker-cellranger-arc/archive/refs/tags/v2.0.2.tar.gz
     - name: cellranger-atac
       version: 2.1.0
       project_url: https://github.com/hisplan/docker-cellranger-atac
@@ -147,9 +147,9 @@ pipelines:
       project_url: https://github.com/hisplan/wdl-transgenes
       download_url: https://github.com/hisplan/wdl-transgenes/archive/refs/tags/v0.0.8.tar.gz
     - name: cellranger-gex
-      version: 6.1.2
-      project_url: https://github.com/hisplan/wdl-cellranger-gex
-      download_url: https://github.com/hisplan/wdl-cellranger-gex/archive/refs/tags/v6.1.2.tar.gz
+      version: 7.1.0
+      project_url: https://github.com/dpeerlab/wdl-cellranger-gex
+      download_url: https://github.com/dpeerlab/wdl-cellranger-gex/archive/refs/tags/v7.1.0.tar.gz
     - name: cellranger-vdj
       version: 6.1.2
       project_url: https://github.com/hisplan/wdl-cellranger-vdj
@@ -159,9 +159,9 @@ pipelines:
       project_url: https://github.com/hisplan/wdl-cellranger-cellplex
       download_url: https://github.com/hisplan/wdl-cellranger-cellplex/archive/refs/tags/v6.1.2.tar.gz
     - name: cellranger-arc
-      version: 2.0.0
-      project_url: https://github.com/hisplan/wdl-cellranger-arc
-      download_url: https://github.com/hisplan/wdl-cellranger-arc/archive/refs/tags/v2.0.0.tar.gz
+      version: 2.0.2
+      project_url: https://github.com/dpeerlab/wdl-cellranger-arc
+      download_url: https://github.com/dpeerlab/wdl-cellranger-arc/archive/refs/tags/v2.0.2.tar.gz
     - name: cellranger-atac
       version: 2.1.0
       project_url: https://github.com/hisplan/wdl-cellranger-atac
