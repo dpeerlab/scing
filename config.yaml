@@ -1,6 +1,6 @@
 versoin: 1.0
 containers:
-  registry: docker.io/sailmskcc
+  registry: quay.io/hisplan
   images:
     - name: seqc
       version: 0.2.11
@@ -72,7 +72,7 @@ containers:
       version: 0.2.1
       project_url: https://github.com/hisplan/sharp/tree/master/dockers/basic-qc
       download_url: https://github.com/hisplan/sharp/archive/refs/tags/v0.1.1.tar.gz
-      directory: dockers/cut-indrop-spacer
+      directory: dockers/basic-qc
     - name: cite-seq-count
       version: 1.4.2-develop
       project_url: https://github.com/hisplan/sharp/tree/master/dockers/cite-seq-count
