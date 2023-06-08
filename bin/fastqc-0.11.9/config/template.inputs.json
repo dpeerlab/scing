@@ -1,0 +1,9 @@
+{
+    "FastQC.fastqFiles": [
+        "s3://.../test_sample1_L003_R1_001.fastq.gz",
+        "s3://.../test_sample1_L004_R1_001.fastq.gz",
+        "s3://.../test_sample1_L003_R2_001.fastq.gz",
+        "s3://.../test_sample1_L004_R2_001.fastq.gz"
+    ],
+    "FastQC.dockerRegistry": "quay.io/hisplan"
+}

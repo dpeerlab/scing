@@ -1,0 +1,20 @@
+{
+    "mkref.genomeVersion": "38",
+    "mkref.ensemblVersion": "98",
+    "mkref.sjdbOverhang": 101,
+    "mkref.biotypes": [
+        "protein_coding",
+        "lincRNA",
+        "antisense",
+        "IG_V_gene",
+        "IG_D_gene",
+        "IG_J_gene",
+        "IG_C_gene",
+        "TR_V_gene",
+        "TR_D_gene",
+        "TR_J_gene",
+        "TR_C_gene"
+    ],
+    "mkref.starVersion": "2.5.3a",
+    "mkref.dockerRegistry": "quay.io/hisplan"
+}

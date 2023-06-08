@@ -1,0 +1,9 @@
+{
+    "pipelineType": "SpaceRanger",
+    "project": "YOUR_PROJECT_NAME",
+    "sample": "YOUR_SAMPLE_NAME",
+    "owner": "chunj",
+    "destination": "s3://.../sr-results/",
+    "transfer": "-",
+    "comment": "-"
+}

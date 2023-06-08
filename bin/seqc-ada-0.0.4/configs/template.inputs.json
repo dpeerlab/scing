@@ -1,0 +1,19 @@
+{
+    "SeqcAda.version": "0.2.11",
+    "SeqcAda.assay": "ten_x_v3",
+    "SeqcAda.index": "s3://seqc-public/genomes/hg38_long_polya/",
+    "SeqcAda.barcodeFiles": "s3://seqc-public/barcodes/ten_x_v3/flat/",
+    "SeqcAda.fastqBarcode": [
+        "s3://.../sample_test1_L001_R1_001.fastq.gz",
+        "s3://.../sample_test1_L002_R1_001.fastq.gz"
+    ],
+    "SeqcAda.fastqGenomic": [
+        "s3://.../sample_test1_L001_R2_001.fastq.gz",
+        "s3://.../sample_test1_L002_R2_001.fastq.gz"
+    ],
+    "SeqcAda.filterMode": "scRNA-seq",
+    "SeqcAda.outputPrefix": "test1",
+    "SeqcAda.starArguments": "runRNGseed=0",
+    "SeqcAda.email": "jaeyoung.chun@gmail.com",
+    "SeqcAda.dockerRegistry": "quay.io/hisplan"
+}

@@ -1,0 +1,35 @@
+{
+    "TransgenesSeqc.referenceName": "project-A-mm38-transgenes",
+    "TransgenesSeqc.genomeReferenceFasta": "s3://seqc-public/genomes/mm38_long_polya/mus_musculus.fa",
+    "TransgenesSeqc.annotationGtf": "s3://seqc-public/genomes/mm38_long_polya/annotations.gtf",
+    "TransgenesSeqc.customFastaFiles": [
+        "s3://dp-lab-data/.../transgenes/CreERTM.fa",
+        "s3://dp-lab-data/.../transgenes/tdTomato.fa",
+        "s3://dp-lab-data/.../transgenes/WPRE.fa",
+        "s3://dp-lab-data/.../transgenes/eGFP.fa",
+        "s3://dp-lab-data/.../transgenes/hDTR.fa"
+    ],
+    "TransgenesSeqc.ensembleIdPrefix": "ENSMUS",
+    "TransgenesSeqc.ensembleIds": [
+        "00009000001",
+        "00009000002",
+        "00009000003",
+        "00009000004",
+        "00009000005"
+    ],
+    "TransgenesSeqc.starVersion": "2.5.3a",
+    "TransgenesSeqc.biotypes": [
+        "protein_coding",
+        "lincRNA",
+        "antisense",
+        "IG_V_gene",
+        "IG_D_gene",
+        "IG_J_gene",
+        "IG_C_gene",
+        "TR_V_gene",
+        "TR_D_gene",
+        "TR_J_gene",
+        "TR_C_gene"
+    ],
+    "TransgenesSeqc.dockerRegistry": "quay.io/hisplan"
+}

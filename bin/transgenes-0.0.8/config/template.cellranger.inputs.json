@@ -1,0 +1,35 @@
+{
+    "TransgenesCellRanger.referenceName": "project-A-mm38-transgenes",
+    "TransgenesCellRanger.genomeReferenceFasta": "s3://seqc-public/genomes/GRCm38-Ensembl-98/mus_musculus.fa",
+    "TransgenesCellRanger.annotationGtf": "s3://seqc-public/genomes/GRCm38-Ensembl-98/annotations.gtf",
+    "TransgenesCellRanger.customFastaFiles": [
+        "s3://dp-lab-data/.../transgenes/CreERTM.fa",
+        "s3://dp-lab-data/.../transgenes/tdTomato.fa",
+        "s3://dp-lab-data/.../transgenes/WPRE.fa",
+        "s3://dp-lab-data/.../transgenes/eGFP.fa",
+        "s3://dp-lab-data/.../transgenes/hDTR.fa"
+    ],
+    "TransgenesCellRanger.ensembleIdPrefix": "ENSMUS",
+    "TransgenesCellRanger.ensembleIds": [
+        "00009000001",
+        "00009000002",
+        "00009000003",
+        "00009000004",
+        "00009000005"
+    ],
+    "TransgenesCellRanger.cellRangerVersion": "6.1.1",
+    "TransgenesCellRanger.biotypes": [
+        "protein_coding",
+        "lincRNA",
+        "antisense",
+        "IG_V_gene",
+        "IG_D_gene",
+        "IG_J_gene",
+        "IG_C_gene",
+        "TR_V_gene",
+        "TR_D_gene",
+        "TR_J_gene",
+        "TR_C_gene"
+    ],
+    "TransgenesCellRanger.dockerRegistry": "quay.io/hisplan"
+}

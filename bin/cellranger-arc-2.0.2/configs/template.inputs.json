@@ -1,0 +1,19 @@
+{
+    "CellRangerArc.runID": "test_sample1",
+    "CellRangerArc.gexFastqName": "test_sample1_gex",
+    "CellRangerArc.gexFastqFiles": [
+        "s3://.../gex/test_sample1_gex_L001_I1_001.fastq.gz",
+        "s3://.../gex/test_sample1_gex_L001_I2_001.fastq.gz",
+        "s3://.../gex/test_sample1_gex_L001_R1_001.fastq.gz",
+        "s3://.../gex/test_sample1_gex_L001_R2_001.fastq.gz"
+    ],
+    "CellRangerArc.atacFastqName": "test_sample1_atac",
+    "CellRangerArc.atacFastqFiles": [
+        "s3://.../atac/test_sample1_atac_L001_I1_001.fastq.gz",
+        "s3://.../atac/test_sample1_atac_L001_R1_001.fastq.gz",
+        "s3://.../atac/test_sample1_atac_L001_R2_001.fastq.gz",
+        "s3://.../atac/test_sample1_atac_L001_R3_001.fastq.gz"
+    ],
+    "CellRangerArc.reference": "https://cf.10xgenomics.com/supp/cell-arc/refdata-cellranger-arc-mm10-2020-A-2.0.0.tar.gz",
+    "CellRangerArc.dockerRegistry": "quay.io/hisplan"
+}

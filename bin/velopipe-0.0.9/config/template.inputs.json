@@ -1,0 +1,11 @@
+{
+    "Velopipe2.sampleName": "test_sample1",
+    "Velopipe2.filteredBarcodes": "s3://.../filtered-barcodes.csv",
+    "Velopipe2.bam": "s3://.../seqc-results/test_sample1_Aligned.out.bam",
+    "Velopipe2.numOfChunks": 20,
+    "Velopipe2.gtf": "s3://seqc-public/genomes/hg38_long_polya/annotations.gtf",
+    "Velopipe2.fullBarcodeWhitelist": "s3://seqc-public/barcodes/ten_x_v3/flat/3M-february-2018.txt",
+    "Velopipe2.cbCorrection": "s3://.../seqc-results/test_sample1_cb-correction.csv.gz",
+    "Velopipe2.umiCorrection": "s3://.../seqc-results/test_sample1_umi-correction.csv.gz",
+    "Velopipe2.dockerRegistry": "quay.io/hisplan"
+}

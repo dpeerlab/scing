@@ -1,0 +1,19 @@
+{
+    "CellRangerATAC.sampleName": "test_sample1",
+    "CellRangerATAC.fastqNames": "test_sample1",
+    "CellRangerATAC.fastqFiles": [
+        "s3://.../test_sample1_L001_I1_001.fastq.gz",
+        "s3://.../test_sample1_L002_I1_001.fastq.gz",
+        "s3://.../test_sample1_L001_R1_001.fastq.gz",
+        "s3://.../test_sample1_L002_R1_001.fastq.gz",
+        "s3://.../test_sample1_L001_R2_001.fastq.gz",
+        "s3://.../test_sample1_L002_R2_001.fastq.gz",
+        "s3://.../test_sample1_L001_R3_001.fastq.gz",
+        "s3://.../test_sample1_L002_R3_001.fastq.gz"
+    ],
+    "CellRangerATAC.referenceGenome": {
+        "name": "GRCh38-2020-A-2.0.0",
+        "location": "https://cf.10xgenomics.com/supp/cell-atac/refdata-cellranger-arc-GRCh38-2020-A-2.0.0.tar.gz"
+    },
+    "CellRangerATAC.dockerRegistry": "quay.io/hisplan"
+}

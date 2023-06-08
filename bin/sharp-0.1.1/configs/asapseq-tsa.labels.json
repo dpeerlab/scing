@@ -1,0 +1,9 @@
+{
+    "pipelineType": "ASAP-seq",
+    "project": "YOUR_PROJECT_NAME",
+    "sample": "YOUR_SAMPLE_NAME",
+    "owner": "YOUR_USER_ID",
+    "destination": "s3://.../asap-seq/tsa/",
+    "transfer": "-",
+    "comment": ""
+}

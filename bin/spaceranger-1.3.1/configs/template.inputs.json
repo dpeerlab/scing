@@ -1,0 +1,16 @@
+{
+    "SpaceRanger.sampleName": "YOUR_SAMPLE_NAME",
+    "SpaceRanger.fastqName": "test_sample1",
+    "SpaceRanger.inputFastq": [
+        "s3://.../test_sample1_S1_L001_I1_001.fastq.gz",
+        "s3://.../test_sample1_S1_L001_I2_001.fastq.gz",
+        "s3://.../test_sample1_S1_L001_R1_001.fastq.gz",
+        "s3://.../test_sample1_S1_L001_R2_001.fastq.gz"
+    ],
+    "SpaceRanger.referenceUrl": "https://cf.10xgenomics.com/supp/spatial-exp/refdata-gex-mm10-2020-A.tar.gz",
+    "SpaceRanger.heImage": "s3://dp-lab-test/st/V1_Adult_Mouse_Brain/V1_Adult_Mouse_Brain_image.tif",
+    "SpaceRanger.slideSerialNumber": "V19L01-041",
+    "SpaceRanger.areaId": "C1",
+    "SpaceRanger.reorientImages": false,
+    "SpaceRanger.dockerRegistry": "quay.io/hisplan"
+}

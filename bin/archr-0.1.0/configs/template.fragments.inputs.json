@@ -1,0 +1,21 @@
+{
+    "ArchRSA.fragmentsFiles": [
+        "s3://.../sample1.fragments.tsv.gz",
+        "s3://.../sample2.fragments.tsv.gz",
+        "s3://.../sample3.fragments.tsv.gz"
+    ],
+    "ArchRSA.fragmentsIndexFiles": [
+        "s3://.../sample1.fragments.tsv.gz.tbi",
+        "s3://.../sample2.fragments.tsv.gz.tbi",
+        "s3://.../sample3.fragments.tsv.gz.tbi"
+    ],
+    "ArchRSA.sampleNames": [
+        "sample1",
+        "sample2",
+        "sample3"
+    ],
+    "ArchRSA.genome": "hg19",
+    "ArchRSA.numCores": 1,
+    "ArchRSA.reformatFragments": false,
+    "ArchRSA.dockerRegistry": "quay.io/hisplan"
+}

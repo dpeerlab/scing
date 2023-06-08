@@ -1,0 +1,36 @@
+{
+    "AsapSeq.fastqR1": [
+        "s3://.../sample1_L001_R1_001.fastq.gz",
+        "s3://.../sample1_L002_R1_001.fastq.gz"
+    ],
+    "AsapSeq.fastqR2": [
+        "s3://.../sample1_L001_R2_001.fastq.gz",
+        "s3://.../sample1_L002_R2_001.fastq.gz"
+    ],
+    "AsapSeq.fastqR3": [
+        "s3://.../sample1_L001_R3_001.fastq.gz",
+        "s3://.../sample1_L002_R3_001.fastq.gz"
+    ],
+    "AsapSeq.sampleName": "sample1",
+    "AsapSeq.conjugation": "TotalSeqA",
+    "AsapSeq.noReverseComplementR2": false,
+    "AsapSeq.lengthR1": 26,
+    "AsapSeq.lengthR2": 15,
+    "AsapSeq.cellBarcodeWhitelistUri": "s3://.../filtered_peak_bc_matrix/barcodes.tsv",
+    "AsapSeq.cellBarcodeWhiteListMethod": "10x",
+    "AsapSeq.translate10XBarcodes": false,
+    "AsapSeq.hashTagList": "s3://.../tag-list.csv",
+    "AsapSeq.cbStartPos": 1,
+    "AsapSeq.cbEndPos": 16,
+    "AsapSeq.umiStartPos": 17,
+    "AsapSeq.umiEndPos": 26,
+    "AsapSeq.cbCollapsingDistance": 1,
+    "AsapSeq.umiCollapsingDistance": 1,
+    "AsapSeq.numExpectedCells": 0,
+    "AsapSeq.minCount": 10,
+    "AsapSeq.resourceSpec": {
+        "cpu": 4,
+        "memory": -1
+    },
+    "AsapSeq.dockerRegistry": "quay.io/hisplan"
+}
