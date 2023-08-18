@@ -1,0 +1,6 @@
+{
+    "CellRangerFlex.sampleName": "YOUR_SAMPLE_NAME",
+    "CellRangerFlex.csv": "path/to/config.csv",
+    "CellRangerFlex.memory": 128,
+    "CellRangerFlex.dockerRegistry": "quay.io/hisplan"
+}
