@@ -65,10 +65,15 @@ task Count {
             tar czf ~{outBase}/analysis.tgz ~{outBase}/analysis/*
         fi
 
+        # copy libraries.csv to the output directory
+        cp libraries.csv ~{outBase}/libraries.csv
+
         find ~{outBase}
     >>>
 
     output {
+        String outputs = outBase
+
         File libraries = "libraries.csv"
 
         File webSummary = outBase + "/web_summary.html"

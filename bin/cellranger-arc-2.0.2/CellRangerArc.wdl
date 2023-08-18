@@ -28,6 +28,8 @@ workflow CellRangerArc {
     }
 
     output {
+        String outputs = Count.outputs
+
         File libraries = Count.libraries
 
         File webSummary = Count.webSummary

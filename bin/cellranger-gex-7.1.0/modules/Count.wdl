@@ -63,6 +63,8 @@ task Count {
     >>>
 
     output {
+        File outputs = outBase
+
         File webSummary = outBase + "/web_summary.html"
         File metricsSummary = outBase + "/metrics_summary.csv"
 

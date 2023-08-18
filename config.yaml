@@ -59,7 +59,7 @@ containers:
       download_url: https://github.com/hisplan/sharp/archive/refs/tags/v0.1.1.tar.gz
       directory: dockers/hto-demux-seurat
     - name: hto-adt-postprocess
-      version: 0.3.4
+      version: 0.3.5
       project_url: https://github.com/hisplan/sharp/tree/master/dockers/hto-adt-postprocess
       download_url: https://github.com/hisplan/sharp/archive/refs/tags/v0.1.1.tar.gz
       directory: dockers/hto-adt-postprocess

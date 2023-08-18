@@ -37,6 +37,8 @@ workflow CellRangerGex {
     }
 
     output {
+        File outputs = Count.outputs
+
         File webSummary = Count.webSummary
         File metricsSummary = Count.metricsSummary
 
