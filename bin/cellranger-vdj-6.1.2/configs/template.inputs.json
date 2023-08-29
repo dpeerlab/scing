@@ -1,7 +1,7 @@
 {
     "CellRangerVdj.sampleName": "YOUR_SAMPLE_NAME",
     "CellRangerVdj.fastqNames": "test_sample1",
-    "CellRangerVdj.referenceUrl": "GRCm38",
+    "CellRangerVdj.referenceGenome": "GRCm38",
     "CellRangerVdj.inputFastq": [
         "s3://.../test_sample1_S1_L001_I1_001.fastq.gz",
         "s3://.../test_sample1_S1_L001_R1_001.fastq.gz",

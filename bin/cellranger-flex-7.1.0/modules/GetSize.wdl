@@ -3,7 +3,7 @@ version 1.0
 task GetSize
 {
     input {
-        File csv
+        String csv
         String dockerRegistry
     }
 
