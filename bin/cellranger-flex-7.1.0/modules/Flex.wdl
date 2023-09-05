@@ -30,7 +30,7 @@ task Flex {
     >>>
 
     output {
-        String outputs = outBase
+        File outputs = outBase
     }
 
     runtime {

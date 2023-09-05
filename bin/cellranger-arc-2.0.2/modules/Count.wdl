@@ -72,7 +72,7 @@ task Count {
     >>>
 
     output {
-        String outputs = outBase
+        File outputs = outBase
 
         File libraries = "libraries.csv"
 
