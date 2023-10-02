@@ -10,3 +10,4 @@ docker build \
     --build-arg DOWNLOAD_URL=${DOWNLOAD_URL} \
     --build-arg VERSION=${VERSION} .
 
+git filter-branch --index-filter 'git rm -rf --cached --ignore-unmatch cromwell.jar' HEAD

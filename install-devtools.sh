@@ -10,3 +10,5 @@ curl -L -o devtools/womtool-${CROMWELL_VERSION}.jar https://github.com/broadinst
 # cd devtools
 ln -snf cromwell-${CROMWELL_VERSION}.jar cromwell.jar
 ln -snf womtool-${CROMWELL_VERSION}.jar womtool.jar
+
+cp devtools/cromwell-${CROMWELL_VERSION}.jar cromwell.jar
