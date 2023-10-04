@@ -72,7 +72,7 @@ task UpdateAnnData {
             --class ~{htoClassification} \
             --adata-in adata-in.h5ad \
             --adata-out ~{sampleName}.h5ad \
-            --chemistry "~{chemistry}"
+            --hto-gex-mapper /opt/data/10x-hto-gex-mapper.pickle ~{true="--10x-barcode-translation" false="" translate10XBarcodes}
 
     >>>
 
