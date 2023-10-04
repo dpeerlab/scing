@@ -11,7 +11,7 @@ task HashedCountMatrix {
         String dockerRegistry
     }
 
-    String dockerImage = dockerRegistry + "/hto-adt-postprocess:0.3.4"
+    String dockerImage = dockerRegistry + "/hto-adt-postprocess:0.3.5"
     Int numCores = 1
     Float inputSize = size(denseCountMatrix, "GiB") + size(htoClassification, "GiB")
 
