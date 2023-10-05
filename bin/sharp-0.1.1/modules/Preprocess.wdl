@@ -153,6 +153,7 @@ workflow Preprocess {
                 filteredBarcodes = cellBarcodeWhitelistUri,
                 dockerRegistry = dockerRegistry
         }
+        # File customWhitelist = cellBarcodeWhitelistUri
     }
 
     if (cellBarcodeWhiteListMethod == "custom") {

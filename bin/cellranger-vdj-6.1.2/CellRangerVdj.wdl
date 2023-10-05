@@ -26,7 +26,7 @@ workflow CellRangerVdj {
     }
 
     output {
-        String outputs = Vdj.outputs
+        File outputs = Vdj.outputs
         Array[File] annotationFiles = Vdj.annotationFiles
         Array[File] fastaFiles = Vdj.fastaFiles
         Array[File] fastqFiles = Vdj.fastqFiles

@@ -51,7 +51,7 @@ task Vdj {
     >>>
 
     output {
-        String outputs = outBase
+        File outputs = outBase
         Array[File] annotationFiles = glob(outBase + "/*_annotations.*")
         Array[File] fastaFiles = glob(outBase + "/*.fasta*")
         Array[File] fastqFiles = glob(outBase + "/*.fastq")

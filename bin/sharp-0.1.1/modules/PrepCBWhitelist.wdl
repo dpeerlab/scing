@@ -143,7 +143,7 @@ task Translate10XBarcodes {
         String dockerRegistry
     }
 
-    String dockerImage = dockerRegistry + "/seqc-utils:0.5.3"
+    String dockerImage = dockerRegistry + "/seqc-utils:0.5.3-dev"
     Int numCores = 1
     Float inputSize = size(barcodesFile, "GiB")
 
